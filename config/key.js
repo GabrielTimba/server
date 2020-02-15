@@ -1,4 +1,4 @@
-if(precess.env.NODE_ENV=='production'){
+if(precess.env.NODE_ENV==='production'){
     //estamos no ambiente de producao, retorne keys do ambiente de producao
     module.exports=require('./prod');
 }else{
